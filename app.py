@@ -5,7 +5,7 @@ st.set_page_config(page_title="Breast Cancer Prediction",
                    layout="wide")
 st.title("🩺 Breast Cancer Prediction")
 st.write("Enter the tumor measurements below to get a model prediction.")
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://breast-cancer-api-x808.onrender.com/predict"
 features = ["radius_mean", "texture_mean", "perimeter_mean", "area_mean",
           "smoothness_mean", "compactness_mean", "concavity_mean",
           "concave_points_mean", "symmetry_mean", "fractal_dimension_mean",
