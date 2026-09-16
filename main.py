@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
 # Load trained model
-model = joblib.load("cancer_prediction_app/final_cancer_model.pkl")
+model = joblib.load("final_cancer_model.pkl")
 app = FastAPI(
     title="Breast Cancer Prediction API",
     description="API for breast cancer prediction using a trained SVM model",
